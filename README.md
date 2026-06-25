@@ -21,3 +21,4 @@ Ana.Fa Ultimate is a personal AI chatbot project created by Ana.
 
 This project was developed as a learning project with the assistance of AI tools.
 
+Please add your own API key.
