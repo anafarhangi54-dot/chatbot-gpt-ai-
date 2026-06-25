@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ana.Fa Ultimate</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="background-blur"></div>
+
+<div class="app">
+
+    <!-- سایدبار -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <div class="logo-circle">
+                🤖
+            </div>
+
+            <h1>Ana.Fa</h1>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🎭 شخصیت</h3>
+
+            <select id="personality">
+
+                <option value="happy">😊 خندان</option>
+
+                <option value="friendly">🤝 دوستانه</option>
+
+                <option value="teacher">🎓 آموزشی</option>
+
+                <option value="coder">💻 برنامه‌نویس</option>
+
+                <option value="pro">🚀 حرفه‌ای</option>
+
+                <option value="fantasy">🎨 فانتزی</option>
+
+            </select>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🌌 اتاق رویایی Ana</h3>
+
+            <select id="roomTheme">
+
+                <option value="space">🌌 فضایی</option>
+
+                <option value="fantasy">🏰 فانتزی</option>
+
+                <option value="cherry">🌸 شکوفه گیلاس</option>
+
+                <option value="coder">💻 اتاق برنامه‌نویس</option>
+
+                <option value="library">📚 کتابخانه جادویی</option>
+
+            </select>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🌟 حال‌سنج</h3>
+
+            <div class="mood-box">
+
+                <div id="moodOrb"></div>
+
+                <span id="moodText">
+                    خنثی
+                </span>
+
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🏆 مدال</h3>
+
+            <div id="medal">
+                🥉 تازه‌کار
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            <h3>📊 آمار</h3>
+
+            <div>
+                پیام‌ها:
+                <span id="messageCount">0</span>
+            </div>
+
+        </div>
+
+        <button id="clearBtn">
+            🗑 پاک کردن گفتگو
+        </button>
+
+    </aside>
+
+    <!-- بخش اصلی -->
+
+    <main class="main">
+
+        <header class="topbar">
+
+            <div class="bot-info">
+
+                <div class="avatar">
+                    🤖
+                </div>
+
+                <div>
+
+                    <h2>
+                        Ana.Fa Ultimate
+                    </h2>
+
+                    <p>
+                        دستیار هوشمند اختصاصی
+                    </p>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <section id="chatContainer" class="chat-container">
+
+            <div class="message bot-message">
+
+                <div class="avatar-small">
+                    🤖
+                </div>
+
+                <div class="bubble">
+
+                    سلام! 🌸
+
+                    من Ana.Fa هستم.
+
+                    آماده گفتگو هستم.
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <div id="typingIndicator" class="typing hidden">
+
+            Ana.Fa در حال تایپ است...
+
+        </div>
+
+        <footer class="input-area">
+
+            <input
+                id="userInput"
+                type="text"
+                placeholder="پیام خود را بنویس..."
+            >
+
+            <button id="sendBtn">
+                ارسال
+            </button>
+
+        </footer>
+
+        <div class="credit">
+
+            ✨ تولید شده توسط Ana
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
